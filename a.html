@@ -6,16 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body class="bg-light">
 
     <nav class=" navbar navbar-expand-lg navbar-light bg-white ">
-        <a class="navbar-brand btn btn-default " href="# ">
-            <img src="ToplaGEL.jpg " width="120 " />
+        <a class="navbar-brand btn btn-default " href="#">
+            <img src="ToplaGEL.jpg " width="120" />
         </a>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        	    <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto ">
                 <li class="nav-item ">
                     <a class="nav-link active mr-sm-4 " href="# ">Home <span class="sr-only ">(current)</span></a>
@@ -33,53 +43,57 @@
                     <a class="nav-link active mr-sm-4 " href="# ">Contact Us</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ">
-                <li class="nav-item active">
-                    <a class="btn btn-secondary mr-sm-2 " href="# ">Mağaza Giriş <span
-                            class="sr-only ">(current)</span></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="btn btn-secondary mr-sm-2" href="# ">Mağaza Giriş</a>
                 </li>
-                <li class="nav-item ">
-                    <a class="btn btn-secondary " href="# ">Firma Giriş</a>
+                <li class="nav-item">
+                    <a class="btn btn-secondary" href="# ">Firma Giriş</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div style="height: 200px;"></div>
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-12 mx-auto">
+                <!-- max width for responsive design-->
+                <div class="bg-white mx-auto col-7" style="max-width: 500px;">
+                    <!-- Padding inner div top and bottom and text color is muted for all text-->
+                    <div class="pt-5 pb-5 text-muted">
+                        <div class="text-center font-weight-bold">
+                            <h2>Mağaza Giriş</h2>
+                        </div>
 
-    <!-- max width for responsive design-->
-    <div class="bg-white mx-auto col-7" style="max-width: 500px;">
-        <!-- Padding inner div top and bottom and text color is muted for all text-->
-        <div class="pt-5 pb-5 text-muted">
-            <div class="text-center font-weight-bold">
-                <h2>Mağaza Giriş</h2>
-            </div>
+                        <div class="text-center col-8 mx-auto">
+                            <p>Alt mtin blbvaalblasblaslblas balblbalsbl blabs dasdas das das dasdjhkgjghnvbjvb asdddasddssda
+                            </p>
+                        </div>
 
-            <div class="text-center col-8 mx-auto">
-                <p>Alt mtin blbvaalblasblaslblas balblbalsbl blabs dasdas das das dasdjhkgjghnvbjvb asdddasddssda</p>
-            </div>
-
-            <form method="POST">
-                <div class="form-group col-sm-10 mx-auto">
-                    <label for="username">Email</label>: <input type="text" class="form-control" autofocus="autofocus" placeholder="Email" />
-                </div>
-                <div class="form-group col-sm-10 mx-auto">
-                    <label for="password">Password</label>: <input type="password" class="form-control" placeholder="Password" />
-                </div>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-sm-5 col-sm-offset-3 mx-auto">
-                            <input type="submit" name="login-submit" id="login-submit" class="form-control btn btn-secondary" value="Log In" />
+                        <form method="POST">
+                            <div class="form-group col-sm-10 mx-auto">
+                                <label for="username">Email</label>: <input type="text" class="form-control" autofocus="autofocus" placeholder="Email" />
+                            </div>
+                            <div class="form-group col-sm-10 mx-auto">
+                                <label for="password">Password</label>: <input type="password" class="form-control" placeholder="Password" />
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-sm-5 col-sm-offset-3 mx-auto">
+                                        <input type="submit" name="login-submit" id="login-submit" class="form-control btn btn-secondary" value="Log In" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <a class="mx-auto text-secondary" href="#">Forget Password?</a>
                         </div>
                     </div>
                 </div>
-            </form>
-            <div class="row">
-                <a class="mx-auto text-secondary" href="#">Forget Password?</a>
+
             </div>
         </div>
     </div>
-
 
 
 
