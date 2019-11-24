@@ -1,0 +1,3 @@
+navbar ve logo bottom çizgileri düzenlenecek.
+a buttonlarına tıklandığında gelen mavi çizgi
+home butonları alignment ayarlancak 
