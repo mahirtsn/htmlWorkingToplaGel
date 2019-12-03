@@ -1,3 +1,4 @@
-navbar ve logo bottom çizgileri düzenlenecek.
+navbar ve logo bottom çizgileri düzenlenecek.✔️
 a buttonlarına tıklandığında gelen mavi çizgi
 home butonları alignment ayarlancak 
+sayfa min width ayarlanacak

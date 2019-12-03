@@ -15,11 +15,13 @@
         }
         
         .container {
-            min-width: 80%;
+            min-width: 80% !important;
             height: 100%;
             border: 1px solid;
             margin-top: 1%;
             margin-bottom: 1%;
+            padding-right: 0px;
+            padding-left: 0px;
         }
         
         .leftSide {
@@ -39,11 +41,22 @@
         .logo {
             height: 15%;
             border-bottom: 1px solid;
+            padding-left: 15px;
+        }
+        
+        .leftmenu {
+            height: 85%;
+            padding-left: 15px;
         }
         
         .MyNavbar {
             height: 10%;
             border-bottom: 1px solid;
+        }
+        
+        .navbarIcons {
+            height: 100px;
+            width: 100px;
         }
     </style>
 
@@ -52,36 +65,26 @@
 <body>
     <div class="container">
         <div class="leftSide">
-            <div class="logo">dasdasd</div>
+            <div class="logo">dasdsdasd</div>
+            <div class="leftmenu">aaaaaaaaaaaaa</div>
 
-            dsad
 
         </div>
         <div class="rightSide">
 
-            <div class="MyNavbar col-sm-12">
-                <div class="row">
-                    <div class="col-3">
-                        <a class="btn btn-default" href="#">
-                            <img src="resources/images/home.png" width="100%" />
-                        </a>
-                    </div>
-                    <div class="col-3">
-                        <a class="btn btn-default" href="#">
-                            <img src="resources/images/home.png" width="100%" />
-                        </a>
-                    </div>
-                    <div class="col-3">
-                        <a class="btn btn-default" href="#">
-                            <img src="resources/images/home.png" width="100%" />
-                        </a>
-                    </div>
-                    <div class="col-sm-2">
-                        <a class="btn btn-default" href="#">
-                            <img src="resources/images/home.png" width="100%" />
-                        </a>
-                    </div>
-                </div>
+            <div class="MyNavbar">
+                <a class="btn btn-default navbarIcons" href="#">
+                    <img src="resources/images/home.png" width="100%" />
+                </a>
+                <a class="btn btn-default navbarIcons" href="#">
+                    <img src="resources/images/home.png" width="100%" />
+                </a>
+                <a class="btn btn-default navbarIcons" href="#">
+                    <img src="resources/images/home.png" width="100%" />
+                </a>
+                <a class="btn btn-default navbarIcons" href="#">
+                    <img src="resources/images/home.png" width="100%" />
+                </a>
             </div>
             asdasd
         </div>
