@@ -1,4 +1,7 @@
 navbar ve logo bottom çizgileri düzenlenecek.✔️
 a buttonlarına tıklandığında gelen mavi çizgi
-home butonları alignment ayarlancak 
+home butonları alignment ayarlancak ✔️
 sayfa min width ayarlanacak
+left sidebar menu iconları sağ tarafa çekilecek
+sol taraf menu buttonları daha koyu renk olacak 
+sol taraf sub menu hover olduğunda renk ayarlanacak
