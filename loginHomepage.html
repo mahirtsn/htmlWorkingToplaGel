@@ -5,119 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <style>
-        body,
-        html {
-            height: 98%;
-            min-height: 98%;
-            background-color: rgb(244, 246, 252);
-        }
-
-        .container {
-            background-color: white;
-            min-width: 1000px;
-            height: 100%;
-            border: 1px solid;
-            margin-top: 1%;
-            margin-bottom: 1%;
-            padding-right: 0px;
-            padding-left: 0px;
-        }
-
-        .leftSide {
-            width: 20%;
-            float: left;
-            height: 100%;
-            min-width: 195px;
-            border-right: 1px solid;
-            border-color: black;
-        }
-
-        .rightSide {
-            width: 80%;
-            float: left;
-            height: 100%;
-        }
-
-        .logo-field {
-            min-height: 175px;
-            height: 15%;
-            width: 100%;
-            border-bottom: 1px solid;
-            padding: 10px;
-        }
-
-        .logo {
-            height: 150px;
-            width: 175px;
-        }
-
-        .leftmenu {
-            height: 85%;
-            padding-left: 0px;
-        }
-
-        .MyNavbar {
-            height: 10%;
-            min-height: 100px;
-            border-bottom: 1px solid;
-        }
-
-        .MyNavbarIcons {
-            min-width: 100px;
-        }
-
-        .myRow {
-            margin: 0;
-        }
-
-        .navbarIcons {
-            height: 98px;
-            width: 98px;
-        }
-
-        .navbarIcons:hover {
-            height: 100px;
-            width: 100px;
-        }
-
-        .innerBody {
-            margin: 10px;
-        }
-
-        .btn:focus,
-        .btn:active {
-            outline: none !important;
-            box-shadow: none;
-        }
-
-        .side-menu-buttons:hover {
-            color: rgb(216, 211, 211);
-        }
-
-        .submenu-field {
-            background-color: #F9FAFC;
-            /*Kasıyor*/
-            /*padding-top: 15%;
-            padding-bottom: 15%;
-            padding-left: 8%*/
-        }
-
-        .submenu-buttons:hover {
-            color: rgb(216, 211, 211);
-        }
-
-        /*BUTTON ALTI TEXTLERI CENTER YAPMAK ICIN*/
-        /*.text-overflow-center {
-            margin-left: -100%;
-            margin-right: -100%;
-            text-align: center;
-        }*/
-    </style>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resources/css/loginHomePage.css">
 </head>
 
 <body>
@@ -126,15 +15,13 @@
         <!--LeftSide of Page Division-->
         <div class="leftSide">
             <!--Logo Division-->
-            <div class="logo-field text-center"><img class="logo" src="resources/images/company_logo.png" width="100%"
-                    max-height=15% /></div>
+            <div class="logo-field text-center"><img class="logo" src="resources/images/company_logo.png" width="100%" max-height=15% /></div>
             <!--Left Side Menu Division-->
             <div class="leftmenu">
                 <ul class="nav flex-column">
                     <li class="nav-item">
 
-                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse"
-                            aria-expanded="false" href="#hesap">
+                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse" aria-expanded="false" href="#hesap">
                             <span class="float-left">Hesap Bilgileri</span><span class="caret"></span>
                         </a>
                         <ul class="collapse list-unstyled submenu-field" id="hesap">
@@ -149,8 +36,7 @@
                             </li>
                         </ul>
 
-                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse"
-                            aria-expanded="false" href="#contact">
+                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse" aria-expanded="false" href="#contact">
                             <span class="float-left">İletişim</span>
                         </a>
                         <ul class="collapse list-unstyled submenu-field" id="contact">
@@ -165,8 +51,7 @@
                             </li>
                         </ul>
 
-                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse"
-                            aria-expanded="false" href="#support">
+                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse" aria-expanded="false" href="#support">
                             <span class="float-left">Destek</span>
                         </a>
                         <ul class="collapse list-unstyled submenu-field" id="support">
@@ -181,8 +66,7 @@
                             </li>
                         </ul>
 
-                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse"
-                            aria-expanded="false" href="#message">
+                        <a class="nav-link btn dropdown-toggle side-menu-buttons" data-toggle="collapse" aria-expanded="false" href="#message">
                             <span class="float-left">Mesaj</span>
                         </a>
                         <ul class="collapse list-unstyled submenu-field" id="message">
@@ -344,14 +228,11 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous ">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous ">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous ">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous ">
     </script>
 
 </body>
