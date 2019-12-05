@@ -50,8 +50,8 @@ html {
 }
 
 .MyNavbar {
-    height: 10%;
-    min-height: 100px;
+    height: 12%;
+    min-height: 110px;
     border-bottom: 1px solid;
 }
 
@@ -61,6 +61,11 @@ html {
 
 .myRow {
     margin: 0;
+}
+
+.navbarNames {
+    margin: 0;
+    margin-top: -2%;
 }
 
 .navbarIcons {
@@ -103,8 +108,8 @@ html {
 /*BUTTON ALTI TEXTLERI CENTER YAPMAK ICIN*/
 
 
-/*.text-overflow-center {
-            margin-left: -100%;
-            margin-right: -100%;
-            text-align: center;
-        }*/
+/*.text-overflow-centeraa {
+    margin-left: -100%;
+    margin-right: -100%;
+    text-align: center;
+}*/
