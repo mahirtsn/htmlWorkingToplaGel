@@ -1,8 +1,10 @@
 navbar ve logo bottom çizgileri düzenlenecek.✔️
-a buttonlarına tıklandığında gelen mavi çizgi
+a buttonlarına tıklandığında gelen mavi çizgi ✔️
 home butonları alignment ayarlancak ✔️
 sayfa min width ayarlanacak ✔️
 left sidebar menu iconları sağ tarafa çekilecek /*bootstrap class ı değişecek*/
 sol taraf menu buttonları daha koyu renk olacak 
 sol taraf sub menu hover olduğunda renk ayarlanacak 
-sol logo-menü biçimlendirme yapılacak. boyut değişince bozuluyor
+sol logo-menü biçimlendirme yapılacak. boyut değişince bozuluyor ✔️
+navbar iconlarının altına yazı eklendiğinde navbar yapısı bozuluyor. MOVED TO ISSUES
+/* YENI SORUNLAR ISSUELARA EKLENECEK!!! BURDAKI SORUNLAR HALLEDILDIKTEN SONRA TODO.TXT SILINECEK*/
