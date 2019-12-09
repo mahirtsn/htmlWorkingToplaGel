@@ -99,6 +99,17 @@ html {
             padding-left: 8%*/
 }
 
+.card-header,
+.card-link.collapsed::after {
+    padding: 0;
+    height: 100px;
+}
+
+.card-link::after {
+    padding: 0;
+    height: 100px;
+}
+
 .submenu-buttons:hover {
     color: rgb(216, 211, 211);
 }
@@ -110,4 +121,8 @@ html {
 
 .card-link.collapsed:after {
     content: url(../icons/dropdown.svg);
+}
+
+.card {
+    cursor: pointer;
 }
