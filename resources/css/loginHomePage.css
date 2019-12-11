@@ -146,3 +146,7 @@ html {
     margin-bottom: 21px;
     cursor: pointer;
 }
+
+.nav-item.nav-link.active {
+    background-color: rgba(241, 241, 241, 0.432);
+}
