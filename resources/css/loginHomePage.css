@@ -66,6 +66,7 @@ html {
 .navbarNames {
     margin: 0;
     margin-top: -2%;
+    cursor: pointer;
 }
 
 .navbarIcons {
@@ -112,16 +113,18 @@ html {
     color: rgb(216, 211, 211);
 }
 
+.leftSideSubmenuParentButtons {
+    cursor: pointer;
+}
+
 .leftSideSubmenuParentButtons:after {
     content: url(../icons/dropup.svg);
     float: right;
+    cursor: pointer;
 }
 
 .collapsed.leftSideSubmenuParentButtons:after {
     content: url(../icons/dropdown.svg);
-}
-
-.card {
     cursor: pointer;
 }
 
@@ -141,4 +144,5 @@ html {
     padding-left: 18px;
     margin-top: 21px;
     margin-bottom: 21px;
+    cursor: pointer;
 }
