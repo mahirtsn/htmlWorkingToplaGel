@@ -1,0 +1,9 @@
+.companyProfile {
+    border: 1px solid;
+    /*background-color: black;*/
+}
+
+.contactInformation {
+    background-color: red;
+    border: 1px solid;
+}
