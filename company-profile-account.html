@@ -22,41 +22,71 @@
             <div class="MyNavbar" id="MyNavbar"></div>
             <!--Inner Body Division-->
             <div class="innerBody mx-3 mt-5">
-                <div class="companyProfile pl-3 m-3 pt-3">
-                    <table class="table">
-                        <h3>Profil</h3>
+                <div class="companyProfile m-3 pt-3 pl-4 pr-5 mb-5">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h3>Profil</h3>
+                                </th>
+                                <th>
+                                    <!--Empty Column For Aligning-->
+                                </th>
+                            </tr>
+                        </thead>
                         <tbody>
-                            <tr>
-                                <td class="w-25">Ad</td>
+                            <tr class="border-bottom">
+                                <td class="w-25 align-middle">Logo</td>
+                                <td class="align-middle">Şirket logonuz müşterilerinizin sizi tanımasına yardımcı olur.</td>
+                                <td class="d-flex justify-content-end pr-2"><img id="logoImage"></td>
+                            </tr>
+                            <tr class="border-bottom">
+                                <td>Şirket adı</td>
                                 <td>asdasdasdasdasdasdasdasdasdasdasdasdasds</td>
-                                <td class="d-flex justify-content-end pr-5">ok</td>
+                                <td></td>
                             </tr>
-                            <tr>
-                                <td>Doğum Günü</td>
+                            <tr class="border-bottom">
+                                <td>Yetkili Kişi</td>
                                 <td>Jacob</td>
-                                <td class="d-flex justify-content-end pr-5">ok</td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>Şifre</td>
+                                <td>Adres</td>
                                 <td>Larry</td>
-                                <td class="d-flex justify-content-end pr-5">ok</td>
+                                <td class="pt-3 pl-5" id="editIconParent">
+                                    <div id="editIcon"></div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="contactInformation pl-3 m-3 pt-3">
+                <div class="companyProfile m-3 pt-3 pl-4 pr-5">
                     <table class="table table-borderless">
-                        <h3>İletişim</h3>
-                        <tbody>
+                        <thead>
                             <tr>
+                                <th>
+                                    <h3>İletişim</h3>
+                                </th>
+                                <th>
+                                    <!--Empty Column For Aligning-->
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-bottom">
                                 <td class="w-25">E-posta</td>
                                 <td>asdasdasdasdasdasdasdasdasdasdasdasdasds</td>
-                                <td class="d-flex justify-content-end pr-5">ok</td>
+                                <td class="pt-3 pl-5" id="editIconParent">
+                                    <div class="d-flex justify-content-end" id="editIcon"></div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Telefon</td>
                                 <td>Jacob</td>
-                                <td class="d-flex justify-content-end pr-5">ok</td>
+                                <td class="pt-3 pl-5" id="editIconParent">
+                                    <div class="d-flex justify-content-end" id="editIcon"></div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

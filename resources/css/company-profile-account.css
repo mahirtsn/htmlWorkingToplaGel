@@ -5,3 +5,25 @@
 .contactInformation {
     border: 1px solid;
 }
+
+#editIcon {
+    content: url(../icons/right-caret.svg);
+}
+
+#editIconParent {
+    padding-left: 100px;
+}
+
+#logoImage {
+    border: 1px solid;
+    border-color: gray;
+    background: url(../images/company_logo_circle.png);
+    background-size: 72px;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+}
+
+#logoImage:hover {
+    content: url(../icons/add.svg);
+}
