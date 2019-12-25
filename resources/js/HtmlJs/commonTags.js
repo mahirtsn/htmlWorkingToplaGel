@@ -5,28 +5,28 @@ window.onload = function() {
         <div class="MyNavbar">
         <div class="row myRow" unselectable="on" onmousedown="return false;">
             <div class="col MyNavbarIcons text-center" id="companyHomePage">
-                <a class="btn btn-default navbarIcons" href="Home.html">
-                    <img src="resources/images/home.png" width="100%" />
+                <a class="btn btn-default navbarIcons" href="../company-top-navbar/Home.html">
+                    <img src="../../../resources/images/home.png" width="100%" />
                 </a>
             </div>
             <div class="col MyNavbarIcons text-center" id="companyProductsPage">
-                <a class="btn btn-default navbarIcons" href="Products.html">
-                    <img src="resources/images/products.png" width="100%" />
+                <a class="btn btn-default navbarIcons" href="../company-top-navbar/Products.html">
+                    <img src="../../../resources/images/products.png" width="100%" />
                 </a>
             </div>
             <div class="col MyNavbarIcons text-center">
                 <a class="btn btn-default navbarIcons" href="#3">
-                    <img src="resources/images/shop_icon.png" width="100%" />
+                    <img src="../../../resources/images/shop_icon.png" width="100%" />
                 </a>
             </div>
             <div class="col MyNavbarIcons text-center">
                 <a class="btn btn-default navbarIcons" href="#4">
-                    <img src="resources/images/orders.png" width="100%" />
+                    <img src="../../../resources/images/orders.png" width="100%" />
                 </a>
             </div>
             <div class="col MyNavbarIcons text-center">
                 <a class="btn btn-default navbarIcons" href="#5">
-                    <img src="resources/images/find_icon.png" width="100%" />
+                    <img src="../../../resources/images/find_icon.png" width="100%" />
                 </a>
             </div>
         </div>
@@ -53,7 +53,7 @@ window.onload = function() {
         leftSide: `
         <div class="leftSide">
         <!--Logo Division-->
-        <div class="logo-field text-center"><img class="logo" src="resources/images/company_logo.png" width="100%" max-height=15% /></div>
+        <div class="logo-field text-center"><img class="logo" src="../../../resources/images/company_logo.png" width="100%" max-height=15% /></div>
         <!--Left Side Menu Division-->
         <div class="leftmenu">
             <div class="leftmenubuttons">
@@ -64,9 +64,10 @@ window.onload = function() {
                         </div>
                         <div id="collapseOne" class="collapse" data-parent="#accordion">
                             <div class="card-body leftSideSubmenuChildButtons">
-                                <p class="leftSideSubmenuChildButton">içerik1</p>
-                                <p class="leftSideSubmenuChildButton">içerik2</p>
-                                <p class="leftSideSubmenuChildButton">içerik3</p>
+                                <p class="leftSideSubmenuChildButton">Hesap Bilgileri</p>
+                                <p class="leftSideSubmenuChildButton">Geçmiş Siparişler</p>
+                                <p class="leftSideSubmenuChildButton">Kullanıcı Ayarları</p>
+                                <a href="../company-left-menu/company-change-password.html" class="leftSideSubmenuChildButton">Şifremi Değiştir</a>
                             </div>
                         </div>
                     </div>
