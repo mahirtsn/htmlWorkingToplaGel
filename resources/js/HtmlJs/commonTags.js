@@ -14,17 +14,17 @@ window.onload = function() {
                     <img src="../../../resources/images/products.png" width="100%" />
                 </a>
             </div>
-            <div class="col MyNavbarIcons text-center id="companyShopsPage"">
+            <div class="col MyNavbarIcons text-center" id="companyShopsPage">
                 <a class="btn btn-default navbarIcons" href="../company-top-navbar/shops.html">
                     <img src="../../../resources/images/shop_icon.png" width="100%" />
                 </a>
             </div>
-            <div class="col MyNavbarIcons text-center id="companyOrdersPage"">
+            <div class="col MyNavbarIcons text-center" id="companyOrdersPage">
                 <a class="btn btn-default navbarIcons" href="../company-top-navbar/orders.html">
                     <img src="../../../resources/images/orders.png" width="100%" />
                 </a>
             </div>
-            <div class="col MyNavbarIcons text-center id="companyCampaignsPage"">
+            <div class="col MyNavbarIcons text-center" id="companyCampaignsPage">
                 <a class="btn btn-default navbarIcons" href="../company-top-navbar/campaigns.html">
                     <img src="../../../resources/icons/star-24px.svg" width="100%" />
                 </a>
@@ -35,16 +35,16 @@ window.onload = function() {
                 <div class="col MyNavbarIcons text-center" id="companyHomePage">
                     <span class="text-overflow-centeraa">ANASAYFA</span>
                 </div>
-                <div class="col MyNavbarIcons text-center id="companyProductsPage"">
+                <div class="col MyNavbarIcons text-center" id="companyProductsPage">
                     <span class="text-overflow-centeraa">ÜRÜNLER</span>
                 </div>
-                <div class="col MyNavbarIcons text-center id="companyShopsPage"">
+                <div class="col MyNavbarIcons text-center" id="companyShopsPage">
                     <span class="text-overflow-centeraa">MAĞAZALAR</span>
                 </div>
-                <div class="col MyNavbarIcons text-center id="companyOrdersPage"">
+                <div class="col MyNavbarIcons text-center" id="companyOrdersPage">
                     <span class="text-overflow-centeraa">SİPARİŞLERİM</span>
                 </div>
-                <div class="col MyNavbarIcons text-center id="companyCampaignsPage"">
+                <div class="col MyNavbarIcons text-center" id="companyCampaignsPage">
                     <span class="text-overflow-centeraa">KAMPANYALAR</span>
                 </div>
             </div>
